@@ -1,38 +1,89 @@
+:root {
+  background: rgb(20, 20, 20);
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
 .App {
+  padding: 5px 35px;
+  border-radius: 20px;
+  border-style: dashed;
+  border-color: white;
+  background-color: orange;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.taskForm, .input, .task {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.taskForm p {
+  font-size: 14px;
+  font-family: cursive;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonStyle {
+  margin-top: 10px;
+  padding: 5px 15px;
+  border-radius: 20px;
+  background-color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.buttonStyle:hover {
+  background-color: yellow;
+  transition: background-color 0.2s linear, color 0.2s linear, font-size 0.1s linear;
+  color: black;
+  font-size: 20px;
+}
+
+.taskContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.taskContainer p {
+  display: flex;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 15px;
+  font-family: cursive;
+  font-weight: bold;
+  margin: 7px;
+  color: #5720FF;
+  background-color: yellow;
+  border-radius: 15px;
+}
+
+.taskHeader {
+  display: flex;
+  justify-content: center;
+}
+
+.taskHeader h2 {
+  padding: 3px 15px;
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: bold;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.taskInfo p{  
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
