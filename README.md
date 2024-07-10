@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# About
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple task management/to-do list website/app
+
+![image](https://github.com/RonelBayonado/task-management-project/assets/152316076/52ba2b87-500e-4426-91be-1e3f27aa9390)
+
+![image](https://github.com/RonelBayonado/task-management-project/assets/152316076/654c0d0f-e196-42e8-bb40-5562e8f0e07e)
+
+![image](https://github.com/RonelBayonado/task-management-project/assets/152316076/aa97de20-3660-4ce3-af4e-73c9a70b5be2)
+
+![image](https://github.com/RonelBayonado/task-management-project/assets/152316076/76a5c5f1-fc79-494e-8e18-76233f656142)
 
 ## Available Scripts
 
